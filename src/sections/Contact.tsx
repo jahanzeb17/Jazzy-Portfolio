@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Mail, Linkedin, Github, Send, CheckCircle } from "lucide-react";
+import {
+  Mail,
+  Linkedin,
+  Github,
+  Send,
+  CheckCircle,
+  Phone,
+  MessageCircle,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import { link } from "framer-motion/client";
 
@@ -84,6 +92,15 @@ const Contact: React.FC = () => {
   };
 
   const contactInfo = [
+    {
+      icon: MessageCircle,
+      label: "WhatsApp",
+      value: "0322-2048400",
+      link: "https://wa.me/923222048400",
+      color: "text-emerald-600 dark:text-emerald-400",
+      iconBg:
+        "bg-emerald-50 dark:bg-emerald-950/20 border-emerald-200/20 dark:border-emerald-900/10",
+    },
     {
       icon: Mail,
       label: "Email",
