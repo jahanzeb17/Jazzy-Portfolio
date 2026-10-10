@@ -59,6 +59,24 @@ const Projects: React.FC = () => {
     //   status: 'deployed'
     // }
     {
+      title: "BlogForge — Multi-Agent Blog Authoring System",
+      duration: "FYP / Completed",
+      description:
+        "Developed a multi-agent blog authoring workflow that combines Tavily web search, Wikipedia, and Google Scholar via SerpAPI for evidence-backed research, with outline approval, blog generation, and iterative section-level revisions.",
+      technologies: [
+        "React",
+        "FastAPI",
+        "Python",
+        "LangGraph",
+        "LangChain",
+        "PostgreSQL",
+        "Tavily",
+        "Wikipedia API",
+        "Google Scholar / SerpAPI",
+      ],
+      status: "completed",
+    },
+    {
       title: "SBBU Assistant — Agentic AI University Chatbot",
       duration: "Personal Project",
       description:
